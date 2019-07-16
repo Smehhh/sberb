@@ -1,9 +1,8 @@
-package ru.easyjava.spring.webmvc.sttc.service;
+package sberbank.service;
 
 import org.springframework.stereotype.Service;
-import ru.easyjava.spring.webmvc.sttc.entity.Package;
+import sberbank.entity.Package;
 
-import java.io.UnsupportedEncodingException;
 import java.util.Collection;
 import java.util.LinkedHashMap;
 import java.util.Map;

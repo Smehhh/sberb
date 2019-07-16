@@ -1,4 +1,4 @@
-package ru.easyjava.spring.webmvc.sttc.entity;
+package sberbank.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

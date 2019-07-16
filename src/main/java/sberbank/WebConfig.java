@@ -1,4 +1,4 @@
-package ru.easyjava.spring.webmvc.sttc;
+package sberbank;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;

@@ -1,12 +1,12 @@
-package ru.easyjava.spring.webmvc.sttc.controllers;
+package sberbank.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
-import ru.easyjava.spring.webmvc.sttc.entity.Package;
-import ru.easyjava.spring.webmvc.sttc.service.PackageService;
+import sberbank.entity.Package;
+import sberbank.service.PackageService;
 
 @Controller
 @RequestMapping("/packages")
