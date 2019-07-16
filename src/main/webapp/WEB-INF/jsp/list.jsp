@@ -3,7 +3,7 @@
 <html>
   <head><title>List of lessons</title></head>
   <body>
-  <h1>Parcels list</h1>
+  <h1>List of lessons</h1>
   <ul>
     <c:forEach items="${parcels}" var="parcel">
       <li><a href="/packages/${parcel.id}">Lesson:&nbsp;<b>${parcel.lesson}</b></a>
