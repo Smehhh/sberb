@@ -6,7 +6,7 @@
   <h1>List of lessons</h1>
   <ul>
     <c:forEach items="${parcels}" var="parcel">
-      <li><a href="/packages/${parcel.id}">Lesson:&nbsp;<b>${parcel.lesson}</b></a>
+      <li><a href="/packages/${parcel.id}">&nbsp;<b>${parcel.id}</b> Lesson:&nbsp;<b>${parcel.lesson}</b></a>
     </c:forEach>
   </ul>
   </body>
