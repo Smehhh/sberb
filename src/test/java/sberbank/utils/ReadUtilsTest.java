@@ -11,9 +11,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class ReadUtilsTest {
-
-    @Rule
-    public ExpectedException exception = ExpectedException.none();
     @Test
     public void filesReader() {
         ReadUtils readUtils = new ReadUtils();
